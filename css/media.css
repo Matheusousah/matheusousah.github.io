@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media only screen and (min-width: 240px) and (max-width: 960px) {
+	#slide {
+		min-height: 400px;
+	}
+	.conteudo {
+		top: 60px;
+	}
+}
+
+@media only screen and (min-width: 240px) and (max-width: 320px) {
+	.conteudo {
+		top: 20px;
+	}
+	.menu {
+		margin-left: -15%;
+	}
+}
+
+@media only screen and (min-width: 340px) and (max-width: 560px) {
+	.center {
+		top: 20px;
+	}
+}
+
+@media only screen and (min-width: 240px) and (max-width: 340px) {
+	
+	#slide {
+		min-height: 300px;
+	}
+	
+	#texto {
+		min-height: 230px;
+	}
+	
+	.titulo1, .titulo2, .titulo3, .titulo4 {
+		font-size: 2.188em;
+	}
+	
+	.center {
+		top: 0px;
+	}
+}
